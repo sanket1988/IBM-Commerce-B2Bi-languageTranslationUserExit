@@ -1,4 +1,4 @@
-package google.translation;
+package com.map.translation;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -8,7 +8,7 @@ import java.net.URLEncoder;
 import org.json.JSONArray;
 import com.google.api.translate.Language;
 
-public class GoogleTranslation {
+public class GoogleTranslator {
   
  public String translateResult(String langFrom, String langTo, String word) {
 	 
