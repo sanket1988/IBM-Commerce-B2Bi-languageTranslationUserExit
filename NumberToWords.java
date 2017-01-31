@@ -1,8 +1,8 @@
-package com.map; // Package path for the .class file
+package com.map.number; // Package path for the .class file
 
 import java.util.*; 
 
-public class NumToWords { 
+public class NumberToWords { 
         String string; 
         String st1[] = { "", "one", "two", "three", "four", "five", "six", "seven", 
                         "eight", "nine", }; 
